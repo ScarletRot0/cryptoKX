@@ -91,7 +91,7 @@
                         <img class="img-fluid mb-4" src="img/icon-7.png" alt="">
                         <h5 class="mb-3">Almacenamiento seguro</h5>
                         <p>Todos los activos digitales están protegidos, puede estar tranquilo, su dinero está seguro.</p>
-                        <a href=""> Read More<i class="fa fa-arrow-right ms-2"></i></a>
+                        <a href=""> <i class="fa fa-arrow-right ms-2"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -99,7 +99,7 @@
                         <img class="img-fluid mb-4" src="img/icon-3.png" alt="">
                         <h5 class="mb-3">Compra y vende!</h5>
                         <p>Más de 20 monedas fiat mediante transferencias bancarias y tarjeta débito o crédito.</p>
-                        <a href="">Read More <i class="fa fa-arrow-right ms-2"></i></a>
+                        <a href=""> <i class="fa fa-arrow-right ms-2"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -107,7 +107,7 @@
                         <img class="img-fluid mb-4" src="img/icon-9.png" alt="">
                         <h5 class="mb-3">Experiencia de Usuario</h5>
                         <p>Creamos la mejor aplicación de uso fácil, con ella podrás comprar y vender todas las cripto en pocos segundos.</p>
-                        <a href="">Read More <i class="fa fa-arrow-right ms-2"></i></a>
+                        <a href=""> <i class="fa fa-arrow-right ms-2"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -115,7 +115,7 @@
                         <img class="img-fluid mb-4" src="img/icon-5.png" alt="">
                         <h5 class="mb-3">Transacciones Eficaces</h5>
                         <p>Operaciones ultrarápidas, confiables y seguras, gracias al desarrollo con tecnología de última generación.</p>
-                        <a href="">Read More <i class="fa fa-arrow-right ms-2"></i></a>
+                        <a href=""> <i class="fa fa-arrow-right ms-2"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -123,7 +123,7 @@
                         <img class="img-fluid mb-4" src="img/icon-2.png" alt="">
                         <h5 class="mb-3">Comunidad Global</h5>
                         <p>¡Puedes hacer parte activa de nuestra inmensa comunidad por medio de las diferentes redes sociales, únete ahora!</p>
-                        <a href="">Read More <i class="fa fa-arrow-right ms-2"></i></a>
+                        <a href=""> <i class="fa fa-arrow-right ms-2"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -131,7 +131,7 @@
                         <img class="img-fluid mb-4" src="img/icon-8.png" alt="">
                         <h5 class="mb-3">Soporte Tecnico</h5>
                         <p>Nuestro equipo de soporte está aquí 24/7/365 a través de los canales de soporte de nuestras aplicaciones.</p>
-                        <a href="">Read More <i class="fa fa-arrow-right ms-2"></i></a>
+                        <a href=""> <i class="fa fa-arrow-right ms-2"></i></a>
                     </div>
                 </div>
             </div>
@@ -145,12 +145,12 @@
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-md-6">
-                    <h1 class="text-primary mb-4"><img class="img-fluid me-2" src="img/icon-1.png" alt=""
-                            style="width: 45px;">CryptoCoin</h1>
+                    <img class="img-fluid me-2 pb-2" src="img/icon-1.png" alt="" style="width: 45px;"><br>
                     <span>Somos el cripto exchange más seguro, rápido y fácil de operar, comience hoy mismo.</span>
                 </div>
                 <div class="col-md-6">
                     <!--<h5 class="mb-4">Newsletter</h5>-->
+                    <img class="img-fluid me-2 pb-2" src="img/icon-1.png" alt="" style="width: 45px;">
                     <p>Cripto exchange</p>
                     <div class="position-relative">
                         <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text"
