@@ -82,61 +82,55 @@
     <div class="container-xxl bg-light py-5 my-5">
         <div class="container py-5">
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <h1 class="display-6">Services</h1>
-                <p class="text-primary fs-5 mb-5">Buy, Sell And Exchange Cryptocurrency</p>
+                <h1 class="display-6">El exchange más fácil de usar!</h1>
+                <p class="animated slideInDown">Hemos desarrollado un exchange pensando en los usurios, somos la plataforma ideal para comenzar a comprar y vender criptomonedas.</p>
             </div>
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item bg-white p-5">
                         <img class="img-fluid mb-4" src="img/icon-7.png" alt="">
-                        <h5 class="mb-3">Currency Wallet</h5>
-                        <p>Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo
-                            justo</p>
-                        <a href="">Read More <i class="fa fa-arrow-right ms-2"></i></a>
+                        <h5 class="mb-3">Almacenamiento seguro</h5>
+                        <p>Todos los activos digitales están protegidos, puede estar tranquilo, su dinero está seguro.</p>
+                        <a href=""> Read More<i class="fa fa-arrow-right ms-2"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item bg-white p-5">
                         <img class="img-fluid mb-4" src="img/icon-3.png" alt="">
-                        <h5 class="mb-3">Currency Transaction</h5>
-                        <p>Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo
-                            justo</p>
+                        <h5 class="mb-3">Compra y vende!</h5>
+                        <p>Más de 20 monedas fiat mediante transferencias bancarias y tarjeta débito o crédito.</p>
                         <a href="">Read More <i class="fa fa-arrow-right ms-2"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="service-item bg-white p-5">
                         <img class="img-fluid mb-4" src="img/icon-9.png" alt="">
-                        <h5 class="mb-3">Bitcoin Investment</h5>
-                        <p>Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo
-                            justo</p>
+                        <h5 class="mb-3">Experiencia de Usuario</h5>
+                        <p>Creamos la mejor aplicación de uso fácil, con ella podrás comprar y vender todas las cripto en pocos segundos.</p>
                         <a href="">Read More <i class="fa fa-arrow-right ms-2"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item bg-white p-5">
                         <img class="img-fluid mb-4" src="img/icon-5.png" alt="">
-                        <h5 class="mb-3">Currency Exchange</h5>
-                        <p>Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo
-                            justo</p>
+                        <h5 class="mb-3">Transacciones Eficaces</h5>
+                        <p>Operaciones ultrarápidas, confiables y seguras, gracias al desarrollo con tecnología de última generación.</p>
                         <a href="">Read More <i class="fa fa-arrow-right ms-2"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item bg-white p-5">
                         <img class="img-fluid mb-4" src="img/icon-2.png" alt="">
-                        <h5 class="mb-3">Bitcoin Escrow</h5>
-                        <p>Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo
-                            justo</p>
+                        <h5 class="mb-3">Comunidad Global</h5>
+                        <p>¡Puedes hacer parte activa de nuestra inmensa comunidad por medio de las diferentes redes sociales, únete ahora!</p>
                         <a href="">Read More <i class="fa fa-arrow-right ms-2"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="service-item bg-white p-5">
                         <img class="img-fluid mb-4" src="img/icon-8.png" alt="">
-                        <h5 class="mb-3">Token Sale</h5>
-                        <p>Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo
-                            justo</p>
+                        <h5 class="mb-3">Soporte Tecnico</h5>
+                        <p>Nuestro equipo de soporte está aquí 24/7/365 a través de los canales de soporte de nuestras aplicaciones.</p>
                         <a href="">Read More <i class="fa fa-arrow-right ms-2"></i></a>
                     </div>
                 </div>
@@ -153,13 +147,11 @@
                 <div class="col-md-6">
                     <h1 class="text-primary mb-4"><img class="img-fluid me-2" src="img/icon-1.png" alt=""
                             style="width: 45px;">CryptoCoin</h1>
-                    <span>Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed
-                        stet lorem sit clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum
-                        et lorem et sit.</span>
+                    <span>Somos el cripto exchange más seguro, rápido y fácil de operar, comience hoy mismo.</span>
                 </div>
                 <div class="col-md-6">
-                    <h5 class="mb-4">Newsletter</h5>
-                    <p>Clita erat ipsum et lorem et sit, sed stet lorem sit clita.</p>
+                    <!--<h5 class="mb-4">Newsletter</h5>-->
+                    <p>Cripto exchange</p>
                     <div class="position-relative">
                         <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text"
                             placeholder="Your email">
@@ -168,27 +160,27 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h5 class="mb-4">Get In Touch</h5>
-                    <p><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                    <p><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                    <p><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                    <h5 class="mb-4">Acerca de KiiEx</h5>
+                    <a class="btn btn-link" href="">Empresa</a>
+                    <a class="btn btn-link" href="">Kill.global</a>
+                    <a class="btn btn-link" href="">Términos de uso</a>
+                    <a class="btn btn-link" href="">Política de privacidad</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h5 class="mb-4">Our Services</h5>
-                    <a class="btn btn-link" href="">Currency Wallet</a>
-                    <a class="btn btn-link" href="">Currency Transaction</a>
-                    <a class="btn btn-link" href="">Bitcoin Investment</a>
-                    <a class="btn btn-link" href="">Token Sale</a>
+                    <h5 class="mb-4">Servicios</h5>
+                    <a class="btn btn-link" href="">Foro de soporte</a>
+                    <a class="btn btn-link" href="">Desarrolladores</a>
+                    <a class="btn btn-link" href="">Ayuda Técnica</a>
+                    <a class="btn btn-link" href="">Enviar una solicitud</a>
+                </div>                <div class="col-lg-3 col-md-6">
+                    <h5 class="mb-4">Learn</h5>
+                    <a class="btn btn-link" href="">Tutoriales </a>
+                    <a class="btn btn-link" href="">Criptopedia</a>
+                    <a class="btn btn-link" href="">Comunidad</a>
+                    <a class="btn btn-link" href="">Blog de noticias</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h5 class="mb-4">Quick Links</h5>
-                    <a class="btn btn-link" href="">About Us</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
-                    <a class="btn btn-link" href="">Our Services</a>
-                    <a class="btn btn-link" href="">Terms & Condition</a>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="mb-4">Follow Us</h5>
+                    <h5 class="mb-4">Redes Sociales</h5>
                     <div class="d-flex">
                         <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-facebook-f"></i></a>
@@ -198,20 +190,20 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid copyright">
+        <!--  <div class="container-fluid copyright">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
                         &copy; <a href="#">Your Site Name</a>, All Right Reserved.
                     </div>
-                    <div class="col-md-6 text-center text-md-end">
+                    <div class="col-md-6 text-center text-md-end">-->
                         <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                        Designed By <a href="https://htmlcodex.com">HTML Codex</a> Distributed By <a
+                        <!--Designed By <a href="https://htmlcodex.com">HTML Codex</a> Distributed By <a
                             href="https://themewagon.com">ThemeWagon</a>
                     </div>
                 </div>
             </div>
-        </div>
+        </div>-->
     </div>
     <!-- Footer End -->
 
