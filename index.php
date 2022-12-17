@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>CryptoCoin - Free Cryptocurrency Website Template</title>
+    <title>Kii-X Exchange</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -77,6 +77,8 @@
         </div>
     </div>
     <!-- Header End -->
+
+
 
     <!-- Service Start -->
     <div class="container-xxl bg-light py-5 my-5">
