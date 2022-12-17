@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #16D5FF;
+    --primary: #004B8D;
     --secondary: #999999;
     --light: #F2F8FE;
     --dark: #111111;
@@ -36,6 +36,22 @@ h6,
     font-weight: lighter;
 }
 
+#inicio .btn.btn-square {
+    color: var(--primary);
+    border: 1px solid var(--primary);
+}
+
+#inicio .btn.btn-square:hover {
+    color: #FFFFFF;
+    background: linear-gradient(90deg, #004B8D, transparent) #388EEA;
+    transition: background-color 1s;
+}
+
+#inicio .btn-primary{
+    background-color: #004B8D;
+    border-color: #004B8D;
+}
+
 /*** Spinner ***/
 #spinner {
     opacity: 0;
@@ -59,6 +75,8 @@ h6,
 
 .btn.btn-primary {
     color: #FFFFFF;
+    background: linear-gradient(90deg, #004B8D, transparent) #388EEA;
+    border-color: #004B8D
 }
 
 .btn-square {
@@ -99,7 +117,7 @@ h6,
 
 .navbar .navbar-nav .nav-link {
     margin-right: 30px;
-    padding: 25px 0;
+    padding: 10px;
     color: var(--dark);
     font-weight: 500;
     outline: none;
@@ -107,7 +125,10 @@ h6,
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: var(--primary);
+    border: 1px solid #004B8D;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #004B8D, transparent) #388EEA;
+    color:#EEEEEE;
 }
 
 .navbar .dropdown-toggle::after {
@@ -118,11 +139,6 @@ h6,
     vertical-align: middle;
     margin-left: 8px;
 }
-
-.navbar .text-primary{
-    color:#004B8D 
-}
-
 
 @media (max-width: 991.98px) {
     .navbar .navbar-nav .nav-link  {
@@ -343,16 +359,6 @@ h6,
     color: var(--primary);
     letter-spacing: 1px;
     box-shadow: none;
-}
-
-.footer .btn.btn-square {
-    color: var(--primary);
-    border: 1px solid var(--primary);
-}
-
-.footer .btn.btn-square:hover {
-    color: #FFFFFF;
-    background: var(--primary);
 }
 
 .footer .copyright {

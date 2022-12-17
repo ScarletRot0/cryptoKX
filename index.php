@@ -53,20 +53,21 @@
                 <div id="inicio" class="col-lg-6">
                     <h3 class="display-4 mb-3 animated slideInDown">Cripto Exchange para todos!</h1>
                     <h1 class="display-4 mb-3 animated slideInDown">Compra y vende criptomonedas de la manera más rápida y segura.</h1>
-                    <p class="animated slideInDown">Nuestro exchange es seguro, rápido y muy fácil de usar.<br>Registrese y comience a operar ya mismo</p>
-                    <div class="col-lg-5">
-                        <form action="" method="POST">
-                            <div class="input-group mb-3">
-                                <input type="text" id="txtNombre" name="txtNombre" placeholder="Nombre"
-                                    class="form-control shadow">
-                            </div>
-                            <span class="input-group-btn"><a href="" class="btn btn-primary py-3 px-4 animated slideInDown">Comenzar</a></span>
-                        </form>
+                    <p class="animated slideInDown pb-2">Nuestro exchange es seguro, rápido y muy fácil de usar.<br>Registrese y comience a operar ya mismo</p>
+                    <div class="col-lg-10 position-relative">
+                        <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text"
+                            placeholder="Email/Teléfono">
+                        <button type="button"
+                            class="btn btn-primary py-2 px-3 position-absolute top-0 end-0 mt-2 me-2">Comenzar</button>
                     </div>
-                    <div class="col-lg-5">
-                        <a href="" target="_blank" title="Apple"><i class="fab fa-apple"></i></a>
-                        <a href="" target="_blank" title="PlayStore"><i class="fab fa-github"></i></a>
-                    </div>
+                    <div class="col-lg-10 col-md-6 pt-3">
+                        <div class="d-flex">
+                            <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-apple"></i></a>
+                            <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-google-play"></i></a>
+                            <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                </div>
                 </div>
 
                 <div class="col-lg-6 animated fadeIn">
@@ -146,20 +147,9 @@
     <div class="container-fluid bg-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
-                <div class="col-md-6">
+                <div class="col-lg-3 col-md-6">
                     <img class="img-fluid me-2 pb-2" src="img/icon-1.png" alt="" style="width: 45px;"><br>
                     <span>Somos el cripto exchange más seguro, rápido y fácil de operar, comience hoy mismo.</span>
-                </div>
-                <div class="col-md-6">
-                    <!--<h5 class="mb-4">Newsletter</h5>-->
-                    <img class="img-fluid me-2 pb-2" src="img/icon-1.png" alt="" style="width: 45px;">
-                    <p>Cripto exchange</p>
-                    <div class="position-relative">
-                        <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text"
-                            placeholder="Your email">
-                        <button type="button"
-                            class="btn btn-primary py-2 px-3 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
-                    </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="mb-4">Acerca de KiiEx</h5>
@@ -174,21 +164,13 @@
                     <a class="btn btn-link" href="">Desarrolladores</a>
                     <a class="btn btn-link" href="">Ayuda Técnica</a>
                     <a class="btn btn-link" href="">Enviar una solicitud</a>
-                </div>                <div class="col-lg-3 col-md-6">
+                </div>                
+                <div class="col-lg-3 col-md-6">
                     <h5 class="mb-4">Learn</h5>
                     <a class="btn btn-link" href="">Tutoriales </a>
                     <a class="btn btn-link" href="">Criptopedia</a>
                     <a class="btn btn-link" href="">Comunidad</a>
                     <a class="btn btn-link" href="">Blog de noticias</a>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="mb-4">Redes Sociales</h5>
-                    <div class="d-flex">
-                        <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-square rounded-circle me-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                    </div>
                 </div>
             </div>
         </div>
