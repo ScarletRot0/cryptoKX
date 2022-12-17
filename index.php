@@ -88,7 +88,7 @@
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item bg-white p-5">
-                        <img class="img-fluid mb-4" src="img/icon-7.png" alt="">
+                        <img class="img-fluid mb-4" src="img/icon-7.png" alt="" style="width: 60px;">
                         <h5 class="mb-3">Almacenamiento seguro</h5>
                         <p>Todos los activos digitales están protegidos, puede estar tranquilo, su dinero está seguro.</p>
                         <a href=""> <i class="fa fa-arrow-right ms-2"></i></a>
@@ -96,15 +96,15 @@
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item bg-white p-5">
-                        <img class="img-fluid mb-4" src="img/icon-3.png" alt="">
+                        <img class="img-fluid mb-4" src="img/icon-3.png" alt="" style="width: 60px;">
                         <h5 class="mb-3">Compra y vende!</h5>
-                        <p>Más de 20 monedas fiat mediante transferencias bancarias y tarjeta débito o crédito.</p>
+                        <p>Más de 20 monedas fiat mediante transferencias bancarias y tarjeta débito o crédito.<br></p>
                         <a href=""> <i class="fa fa-arrow-right ms-2"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="service-item bg-white p-5">
-                        <img class="img-fluid mb-4" src="img/icon-9.png" alt="">
+                        <img class="img-fluid mb-4" src="img/icon-9.png" alt="" style="width: 55px;">
                         <h5 class="mb-3">Experiencia de Usuario</h5>
                         <p>Creamos la mejor aplicación de uso fácil, con ella podrás comprar y vender todas las cripto en pocos segundos.</p>
                         <a href=""> <i class="fa fa-arrow-right ms-2"></i></a>
@@ -112,7 +112,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item bg-white p-5">
-                        <img class="img-fluid mb-4" src="img/icon-5.png" alt="">
+                        <img class="img-fluid mb-4" src="img/icon-5.png" alt="" style="width: 60px;">
                         <h5 class="mb-3">Transacciones Eficaces</h5>
                         <p>Operaciones ultrarápidas, confiables y seguras, gracias al desarrollo con tecnología de última generación.</p>
                         <a href=""> <i class="fa fa-arrow-right ms-2"></i></a>
@@ -120,7 +120,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item bg-white p-5">
-                        <img class="img-fluid mb-4" src="img/icon-2.png" alt="">
+                        <img class="img-fluid mb-4" src="img/icon-2.png" alt="" style="width: 60px;">
                         <h5 class="mb-3">Comunidad Global</h5>
                         <p>¡Puedes hacer parte activa de nuestra inmensa comunidad por medio de las diferentes redes sociales, únete ahora!</p>
                         <a href=""> <i class="fa fa-arrow-right ms-2"></i></a>
@@ -128,7 +128,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="service-item bg-white p-5">
-                        <img class="img-fluid mb-4" src="img/icon-8.png" alt="">
+                        <img class="img-fluid mb-4" src="img/icon-8.png" alt="" style="width: 60px;">
                         <h5 class="mb-3">Soporte Tecnico</h5>
                         <p>Nuestro equipo de soporte está aquí 24/7/365 a través de los canales de soporte de nuestras aplicaciones.</p>
                         <a href=""> <i class="fa fa-arrow-right ms-2"></i></a>
