@@ -82,15 +82,15 @@
 
 
     <!-- Service Start -->
-    <div class="container-xxl bg-light py-5 my-5">
+    <div class="container-service py-5 my-5">
         <div class="container py-5">
-            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 1000px;">
                 <h1 class="display-6">El exchange más fácil de usar!</h1>
                 <p class="animated slideInDown">Hemos desarrollado un exchange pensando en los usurios, somos la plataforma ideal para comenzar a comprar y vender criptomonedas.</p>
             </div>
-            <div class="row g-4">
+            <div class="row g-4 py-5 px-5">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item bg-white p-5">
+                    <div class="service-item p-5 shadow">
                         <img class="img-fluid mb-4" src="img/icon-7.png" alt="" style="width: 60px;">
                         <h5 class="mb-3">Almacenamiento seguro</h5>
                         <p>Todos los activos digitales están protegidos, puede estar tranquilo, su dinero está seguro.</p>
@@ -98,7 +98,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item bg-white p-5">
+                    <div class="service-item p-5 shadow">
                         <img class="img-fluid mb-4" src="img/icon-3.png" alt="" style="width: 60px;">
                         <h5 class="mb-3">Compra y vende!</h5>
                         <p>Más de 20 monedas fiat mediante transferencias bancarias y tarjeta débito o crédito.<br></p>
@@ -106,7 +106,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item bg-white p-5">
+                    <div class="service-item p-5 shadow">
                         <img class="img-fluid mb-4" src="img/icon-9.png" alt="" style="width: 55px;">
                         <h5 class="mb-3">Experiencia de Usuario</h5>
                         <p>Creamos la mejor aplicación de uso fácil, con ella podrás comprar y vender todas las cripto en pocos segundos.</p>
@@ -114,7 +114,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item bg-white p-5">
+                    <div class="service-item p-5 shadow">
                         <img class="img-fluid mb-4" src="img/icon-5.png" alt="" style="width: 60px;">
                         <h5 class="mb-3">Transacciones Eficaces</h5>
                         <p>Operaciones ultrarápidas, confiables y seguras, gracias al desarrollo con tecnología de última generación.</p>
@@ -122,7 +122,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item bg-white p-5">
+                    <div class="service-item p-5 shadow">
                         <img class="img-fluid mb-4" src="img/icon-2.png" alt="" style="width: 60px;">
                         <h5 class="mb-3">Comunidad Global</h5>
                         <p>¡Puedes hacer parte activa de nuestra inmensa comunidad por medio de las diferentes redes sociales, únete ahora!</p>
@@ -130,7 +130,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item bg-white p-5">
+                    <div class="service-item p-5 shadow">
                         <img class="img-fluid mb-4" src="img/icon-8.png" alt="" style="width: 60px;">
                         <h5 class="mb-3">Soporte Tecnico</h5>
                         <p>Nuestro equipo de soporte está aquí 24/7/365 a través de los canales de soporte de nuestras aplicaciones.</p>
@@ -144,17 +144,18 @@
 
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container-fluid footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
                     <img class="img-fluid me-2 pb-2" src="img/icon-1.png" alt="" style="width: 45px;"><br>
-                    <span>Somos el cripto exchange más seguro, rápido y fácil de operar, comience hoy mismo.</span>
+                    <span>Somos el cripto exchange más seguro, rápido y fácil de operar, comience hoy mismo.</span><br>
+                    <button type="button" class="btn btn-primary py-2 px-3 top-0 end-0 mt-2 me-2">Registrarse</button>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="mb-4">Acerca de KiiEx</h5>
                     <a class="btn btn-link" href="">Empresa</a>
-                    <a class="btn btn-link" href="">Kill.global</a>
+                    <a class="btn btn-link" href="">Kii.global</a>
                     <a class="btn btn-link" href="">Términos de uso</a>
                     <a class="btn btn-link" href="">Política de privacidad</a>
                 </div>
@@ -174,20 +175,6 @@
                 </div>
             </div>
         </div>
-        <!--  <div class="container-fluid copyright">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a href="#">Your Site Name</a>, All Right Reserved.
-                    </div>
-                    <div class="col-md-6 text-center text-md-end">-->
-                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                        <!--Designed By <a href="https://htmlcodex.com">HTML Codex</a> Distributed By <a
-                            href="https://themewagon.com">ThemeWagon</a>
-                    </div>
-                </div>
-            </div>
-        </div>-->
     </div>
     <!-- Footer End -->
 

@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #004B8D;
+    --primary: #0938BA;
     --secondary: #999999;
     --light: #F2F8FE;
     --dark: #111111;
@@ -25,7 +25,7 @@ h6,
 }
 
 #inicio h3{
-    color:#004B8D;
+    color:#0938BA;
     font-size: 30px;
     font-weight: normal;
 }
@@ -43,14 +43,19 @@ h6,
 
 #inicio .btn.btn-square:hover {
     color: #FFFFFF;
-    background: linear-gradient(90deg, #004B8D, transparent) #388EEA;
+    background: linear-gradient(90deg, #0938BA, transparent) #388EEA;
     transition: background-color 1s;
 }
 
 #inicio .btn-primary{
-    background-color: #004B8D;
-    border-color: #004B8D;
+    background-color: #0938BA;
+    border-color: #0938BA;
 }
+
+#inicio .form-control{
+    border-radius: 20px;
+}
+
 
 /*** Spinner ***/
 #spinner {
@@ -75,8 +80,8 @@ h6,
 
 .btn.btn-primary {
     color: #FFFFFF;
-    background: linear-gradient(90deg, #004B8D, transparent) #388EEA;
-    border-color: #004B8D
+    background: linear-gradient(90deg, #0938BA, transparent) #388EEA;
+    border-color: #0938BA
 }
 
 .btn-square {
@@ -104,6 +109,9 @@ h6,
     font-weight: normal;
 }
 
+.btn-primary{
+    border-radius: 20px;
+}
 
 /*** Navbar ***/
 .navbar.sticky-top {
@@ -125,10 +133,12 @@ h6,
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    border: 1px solid #004B8D;
+    border: 1px solid #0938BA;
     border-radius: 20px;
-    background: linear-gradient(90deg, #004B8D, transparent) #388EEA;
+    background: linear-gradient(90deg, #0938BA, transparent) #388EEA;
     color:#EEEEEE;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .navbar .dropdown-toggle::after {
@@ -183,22 +193,22 @@ h6,
 
 
 /*** Service ***/
-.service-item {
-    position: relative;
-    overflow: hidden;
+.container-service{
+    background: #F0F0F0;
 }
 
-.service-item::after {
-    position: absolute;
-    content: "";
-    width: 0;
-    height: 0;
-    top: -80px;
-    right: -80px;
-    border: 80px solid;
-    transform: rotate(45deg);
-    opacity: 1;
-    transition: .5s;
+.service-item {
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    background: #FFFFFF;
+}
+.container-service p{
+    color: #111111;
+
+}
+.service-item p{
+    font-size: 15px;
 }
 
 .service-item.bg-white::after {
@@ -208,11 +218,30 @@ h6,
 .service-item.bg-light::after {
     border-color: transparent transparent #FFFFFF transparent;
 }
+.service-item:hover .img-fluid{
+    filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(60deg) brightness(109%) contrast(101%);
+}
+
+.service-item:hover{
+    background: #0938BA;
+    color: #FFFFFF;
+}
+
+.service-item:hover .fa-arrow-right{
+    color:#FFFFFF;
+}
+
+.service-item:hover h5{
+    color:#FFFFFF;
+}
 
 .service-item:hover::after {
     opacity: 0;
 }
 
+.fa-arrow-right{
+    color: #0938BA;
+}
 
 /*** Roadmap ***/
 .roadmap-carousel {
@@ -307,40 +336,17 @@ h6,
     background: var(--dark);
 }
 
-
-/*** FAQs ***/
-.accordion .accordion-item {
-    border: none;
-    margin-bottom: 15px;
-}
-
-.accordion .accordion-button {
-    background: var(--light);
-    border-radius: 2px;
-}
-
-.accordion .accordion-button:not(.collapsed) {
-    color: #FFFFFF;
-    background: var(--primary);
-    box-shadow: none;
-}
-
-.accordion .accordion-button:not(.collapsed)::after {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
-}
-
-.accordion .accordion-body {
-    padding: 15px 0 0 0;
-}
-
-
 /*** Footer ***/
+.footer{
+    background: #DBDFE3;
+    color: #585B5F;
+}
 .footer .btn.btn-link {
     display: block;
     margin-bottom: 5px;
     padding: 0;
     text-align: left;
-    color: var(--secondary);
+    color: #585B5F;
     font-weight: normal;
     text-transform: capitalize;
     transition: .3s;
@@ -359,17 +365,4 @@ h6,
     color: var(--primary);
     letter-spacing: 1px;
     box-shadow: none;
-}
-
-.footer .copyright {
-    padding: 25px 0;
-    border-top: 1px solid rgba(17, 17, 17, .1);
-}
-
-.footer .copyright a {
-    color: var(--primary);
-}
-
-.footer .copyright a:hover {
-    color: var(--dark);
 }
