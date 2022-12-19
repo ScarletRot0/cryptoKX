@@ -24,7 +24,6 @@
                 </div>-->
                 <a href="" class="nav-item nav-link">Blog</a>
                 <a href="" class="nav-item nav-link">Inglés</a>
-                <a href="" class="nav-item nav-link">Aprende</a>
             </div>
             <div class="navbar-nav ms-auto py-4 py-lg-0">
                 <a href="roadmap.html" class="nav-item nav-link pl-10">Iniciar Sesión</a>

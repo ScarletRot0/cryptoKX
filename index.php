@@ -78,6 +78,15 @@
         </div>
     </div>
     <!-- Header End -->
+    <div class="container-fluid">
+        <div id=fondo class="container">
+        <img class=""  src="img/EXCHANGE.png"
+                        alt="">
+            <h1 class="display-4 mb-3 animated slideInDown">La mejor experiencia de trading<br>con Kii-X Cripto</h1>
+            <!--<h1 class="display-4 mb-3 animated slideInDown">La mejor experiencia de trading<br>con Kii-X Cripto</h1>-->
+            <button type="button" class="btn btn-secundary py-2 px-5 top-0 end-0 mt-2 me-2">Registrese aqui</button>
+        </div>    
+    </div>
 
 
 
@@ -142,7 +151,11 @@
     </div>
     <!-- Service End -->
 
-
+        <div>
+            <div class="col-lg-6 animated fadeIn">
+                <img class="img-fluid animated pulse infinite" style="animation-duration: 3s;" src="img/hero-3.png"alt="">
+            </div>
+        </div>
     <!-- Footer Start -->
     <div class="container-fluid footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
