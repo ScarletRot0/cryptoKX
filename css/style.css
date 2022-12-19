@@ -113,6 +113,12 @@ h6,
     border-radius: 20px;
 }
 
+.btn.btn-secundary {
+    color: #F0F0F0;
+    background: linear-gradient(90deg, #0938BA, transparent) #388EEA;
+    border-color: #0938BA
+    
+}
 /*** Navbar ***/
 .navbar.sticky-top {
     top: -100px;
@@ -191,6 +197,12 @@ h6,
     color: var(--secondary);
 }
 
+/**header**/
+#fondo{
+    
+    background-image: "cryptoKX\img\EXHANGE.png";
+    background: no-repeat;
+}
 
 /*** Service ***/
 .container-service{
@@ -226,6 +238,10 @@ h6,
     background: #0938BA;
     color: #FFFFFF;
 }
+
+.service-item:hover p{
+    color:#FFFFFF;
+} 
 
 .service-item:hover .fa-arrow-right{
     color:#FFFFFF;
