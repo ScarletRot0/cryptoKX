@@ -47,7 +47,7 @@
 
 
     <!-- Header Start -->
-    <div class="container-fluid hero-header bg-light py-5 mb-5">
+    <div id="fondo1" class="container-fluid hero-header py-5 mb-5">
         <div class="container py-5">
             <div class="row g-5 align-items-center">
                 <div id="inicio" class="col-lg-6">
@@ -69,7 +69,6 @@
                         </div>
                 </div>
                 </div>
-
                 <div class="col-lg-6 animated fadeIn">
                     <img class="img-fluid animated pulse infinite" style="animation-duration: 3s;" src="img/hero-1.png"
                         alt="">
@@ -78,13 +77,19 @@
         </div>
     </div>
     <!-- Header End -->
-    <div class="container-fluid">
-        <div id=fondo class="container">
-        <img class=""  src="img/EXCHANGE.png"
-                        alt="">
-            <h1 class="display-4 mb-3 animated slideInDown">La mejor experiencia de trading<br>con Kii-X Cripto</h1>
-            <!--<h1 class="display-4 mb-3 animated slideInDown">La mejor experiencia de trading<br>con Kii-X Cripto</h1>-->
-            <button type="button" class="btn btn-secundary py-2 px-5 top-0 end-0 mt-2 me-2">Registrese aqui</button>
+    <div id=fondo2 class="container-fluid">
+        <div class="row">
+            <!-- <div class="container"> -->
+                    <!-- <div class="col-lg-12 col-md-8"> -->
+                        <div class="col-lg-8 col-md-4 px-5 py-5">
+                            <h4 class="display-4 mb-3 animated slideInDown">La mejor experiencia de trading<br>con Kii-X Cripto</h4>
+                        </div>
+                        <div class="col-lg-4 col-md-2 px-5 py-5">
+                            <h6 class="animated slideInDown px-1 py-1">Comienza ahora mismo!</h6>
+                            <button type="button" class="btn btn-secundary px-5 top-0 end-0 mt-2 me-2">Registrese aqui</button>
+                        </div>
+                    <!-- </div> -->
+            <!-- </div> -->
         </div>    
     </div>
 
@@ -193,8 +198,7 @@
 
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
-            class="bi bi-arrow-up"></i></a>
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
 
 
     <!-- JavaScript Libraries -->

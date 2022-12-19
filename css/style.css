@@ -1,4 +1,4 @@
-/********** Template CSS **********/
+/********** CSS **********/
 :root {
     --primary: #0938BA;
     --secondary: #999999;
@@ -55,8 +55,26 @@ h6,
 #inicio .form-control{
     border-radius: 20px;
 }
+/*** Fondo ***/
 
+#fondo1{
+    background-image: url(../img/FigurasHeader.png);
+    background-color: #FFFFFF;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: auto;
+}
 
+#fondo2{
+    background-image: url(../img/EXCHANGE.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: auto;
+}
+#fondo2 h4, h6{
+    color: #FFFFFF;
+    margin-left: 10px;
+}
 /*** Spinner ***/
 #spinner {
     opacity: 0;
@@ -81,7 +99,15 @@ h6,
 .btn.btn-primary {
     color: #FFFFFF;
     background: linear-gradient(90deg, #0938BA, transparent) #388EEA;
-    border-color: #0938BA
+    border-color: #0938BA;
+}
+
+.btn.btn-secundary {
+    background: #F0F0F0;
+    color: #0938BA;
+    border-color: #FFFFFF;
+    border-radius: 20px;
+
 }
 
 .btn-square {
@@ -113,12 +139,7 @@ h6,
     border-radius: 20px;
 }
 
-.btn.btn-secundary {
-    color: #F0F0F0;
-    background: linear-gradient(90deg, #0938BA, transparent) #388EEA;
-    border-color: #0938BA
-    
-}
+
 /*** Navbar ***/
 .navbar.sticky-top {
     top: -100px;
@@ -195,13 +216,6 @@ h6,
 /*** Header ***/
 .hero-header .breadcrumb-item+.breadcrumb-item::before {
     color: var(--secondary);
-}
-
-/**header**/
-#fondo{
-    
-    background-image: "cryptoKX\img\EXHANGE.png";
-    background: no-repeat;
 }
 
 /*** Service ***/
