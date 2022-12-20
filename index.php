@@ -30,6 +30,7 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/estilos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -77,7 +78,7 @@
         </div>
     </div>
     <!-- Header End -->
-    <div id=fondo2 class="container-fluid">
+    <div id=fondo2 class="container-fluid" colspan="5">
         <div class="row">
             <!-- <div class="container"> -->
                     <!-- <div class="col-lg-12 col-md-8"> -->
@@ -155,12 +156,18 @@
         </div>
     </div>
     <!-- Service End -->
-
-        <div>
-            <div class="col-lg-6 animated fadeIn">
+    <div id=fondo3 class="container-fluid">
+        <div class="row">
+            <div class="col-lg-7 col-md-4 px-5 pl-5 py-5">
+                <h6 class="display-4 mb-3 animated slideInDown">La forma más fácil de comenzar a operar con criptomonedas</h6>
+                <img class="paso1 img-fluid" src="img/Paso-1.png" alt="">
+                <p></p>
+            </div>
+            <div class="col-lg-3 animated fadeIn pl-5">
                 <img class="img-fluid animated pulse infinite" style="animation-duration: 3s;" src="img/hero-3.png"alt="">
             </div>
-        </div>
+        </div>    
+    </div>
     <!-- Footer Start -->
     <div class="container-fluid footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">

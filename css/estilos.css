@@ -1,0 +1,33 @@
+/*** Fondo ***/
+#fondo1{
+    background-image: url(../img/FigurasHeader.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#fondo2{
+    background-image: url(../img/EXCHANGE.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: auto;
+}
+#fondo2 h4, h6{
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+#fondo3{
+    background-image: url(../img/azul.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: auto;
+}
+#fondo3 h6{
+    color: #FFFFFF;
+    margin-left: 10px;
+    font-size: 45px;
+}
+#fondo3 .paso1{
+    width: 13%;
+    padding-left: 50px;
+    padding-top: 20px;
+}

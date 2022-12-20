@@ -55,26 +55,7 @@ h6,
 #inicio .form-control{
     border-radius: 20px;
 }
-/*** Fondo ***/
 
-#fondo1{
-    background-image: url(../img/FigurasHeader.png);
-    background-color: #FFFFFF;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: auto;
-}
-
-#fondo2{
-    background-image: url(../img/EXCHANGE.png) ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: auto;
-}
-#fondo2 h4, h6{
-    color: #FFFFFF;
-    margin-left: 10px;
-}
 /*** Spinner ***/
 #spinner {
     opacity: 0;
