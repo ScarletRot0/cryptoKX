@@ -26,8 +26,24 @@
     margin-left: 10px;
     font-size: 45px;
 }
-#fondo3 .paso1{
-    width: 13%;
+#fondo3 .paso{
+    max-width: 100px;
     padding-left: 50px;
     padding-top: 20px;
 }
+#fondo3 .image{
+    flex-basis: 40%
+}
+img.paso{
+    vertical-align: -15px;
+}
+#fondo3 p{
+    padding-left: 20px;
+    color: #CFD7F2;
+    font-size: x-large;
+}
+#fondo3 .button{
+    text-align: center;
+    margin-top: 250px;
+}
+

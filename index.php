@@ -28,7 +28,7 @@
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Template Stylesheet -->
+    <!-- General Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
     <link href="css/estilos.css" rel="stylesheet">
 </head>
@@ -48,10 +48,10 @@
 
 
     <!-- Header Start -->
-    <div id="fondo1" class="container-fluid hero-header py-5 mb-5">
+    <div id="fondo1" class="container-fluid hero-header py-5">
         <div class="container py-5">
             <div class="row g-5 align-items-center">
-                <div id="inicio" class="col-lg-6">
+                <div id="inicio" class="col-lg-7">
                     <h3 class="display-4 mb-3 animated slideInDown">Cripto Exchange para todos!</h1>
                     <h1 class="display-4 mb-3 animated slideInDown">Compra y vende criptomonedas de la manera más rápida y segura.</h1>
                     <p class="animated slideInDown pb-2">Nuestro exchange es seguro, rápido y muy fácil de usar.<br>Registrese y comience a operar ya mismo</p>
@@ -70,34 +70,30 @@
                         </div>
                 </div>
                 </div>
-                <div class="col-lg-6 animated fadeIn">
+                <div class="col-lg-5 animated fadeIn">
                     <img class="img-fluid animated pulse infinite" style="animation-duration: 3s;" src="img/hero-1.png"
                         alt="">
                 </div>
             </div>
         </div>
     </div>
-    <!-- Header End -->
+
     <div id=fondo2 class="container-fluid" colspan="5">
         <div class="row">
-            <!-- <div class="container"> -->
-                    <!-- <div class="col-lg-12 col-md-8"> -->
-                        <div class="col-lg-8 col-md-4 px-5 py-5">
-                            <h4 class="display-4 mb-3 animated slideInDown">La mejor experiencia de trading<br>con Kii-X Cripto</h4>
-                        </div>
-                        <div class="col-lg-4 col-md-2 px-5 py-5">
-                            <h6 class="animated slideInDown px-1 py-1">Comienza ahora mismo!</h6>
-                            <button type="button" class="btn btn-secundary px-5 top-0 end-0 mt-2 me-2">Registrese aqui</button>
-                        </div>
-                    <!-- </div> -->
-            <!-- </div> -->
+                <div class="col-lg-8 col-md-4 ">
+                    <h4 class="px-5 py-5 display-4 mb-3 animated slideInDown">La mejor experiencia de trading<br>con Kii-X Cripto</h4>
+                </div>
+                <div class="col-lg-4 col-md-2 px-5 py-5">
+                    <h6 class="animated slideInDown px-1 pt-4">Comienza ahora mismo!</h6>
+                    <button type="button" class="btn btn-secundary px-5 top-0 end-0 mt-2 me-2">Registrese aqui</button>
+                </div>
         </div>    
     </div>
-
+    <!-- Header End -->
 
 
     <!-- Service Start -->
-    <div class="container-service py-5 my-5">
+    <div class="container-service py-5">
         <div class="container py-5">
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 1000px;">
                 <h1 class="display-6">El exchange más fácil de usar!</h1>
@@ -156,51 +152,31 @@
         </div>
     </div>
     <!-- Service End -->
+
+    <!-- List Start -->
     <div id=fondo3 class="container-fluid">
         <div class="row">
             <div class="col-lg-7 col-md-4 px-5 pl-5 py-5">
                 <h6 class="display-4 mb-3 animated slideInDown">La forma más fácil de comenzar a operar con criptomonedas</h6>
-                <img class="paso1 img-fluid" src="img/Paso-1.png" alt="">
-                <p></p>
+                <div class="image">
+                    <p style="float: left;"><img class="paso img-fluid" src="img/Paso-1.png" alt=""> &nbsp&nbspCrea una cuenta gratis en Kii Exchange</p>
+                    <p style="float: left;"><img class="paso img-fluid" src="img/Paso-2.png" alt=""> &nbsp&nbspConfigura un método de pago</p>
+                    <p style="float: left;"><img class="paso img-fluid" src="img/Paso-3.png" alt=""> &nbsp&nbspCompra y vende criptomonedas</p>
+                    
+                </div>
+                <div class="button col-lg-8 col-md-5 pt-5">
+                    <button type="button" class="btn btn-secundary px-5 top-0 end-0 mt-2 me-2">Comience ahora mismo!</button>
+                </div>
             </div>
             <div class="col-lg-3 animated fadeIn pl-5">
                 <img class="img-fluid animated pulse infinite" style="animation-duration: 3s;" src="img/hero-3.png"alt="">
             </div>
         </div>    
     </div>
+    <!-- List End -->
+
     <!-- Footer Start -->
-    <div class="container-fluid footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-lg-3 col-md-6">
-                    <img class="img-fluid me-2 pb-2" src="img/icon-1.png" alt="" style="width: 45px;"><br>
-                    <span>Somos el cripto exchange más seguro, rápido y fácil de operar, comience hoy mismo.</span><br>
-                    <button type="button" class="btn btn-primary py-2 px-3 top-0 end-0 mt-2 me-2">Registrarse</button>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="mb-4">Acerca de KiiEx</h5>
-                    <a class="btn btn-link" href="">Empresa</a>
-                    <a class="btn btn-link" href="">Kii.global</a>
-                    <a class="btn btn-link" href="">Términos de uso</a>
-                    <a class="btn btn-link" href="">Política de privacidad</a>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="mb-4">Servicios</h5>
-                    <a class="btn btn-link" href="">Foro de soporte</a>
-                    <a class="btn btn-link" href="">Desarrolladores</a>
-                    <a class="btn btn-link" href="">Ayuda Técnica</a>
-                    <a class="btn btn-link" href="">Enviar una solicitud</a>
-                </div>                
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="mb-4">Learn</h5>
-                    <a class="btn btn-link" href="">Tutoriales </a>
-                    <a class="btn btn-link" href="">Criptopedia</a>
-                    <a class="btn btn-link" href="">Comunidad</a>
-                    <a class="btn btn-link" href="">Blog de noticias</a>
-                </div>
-            </div>
-        </div>
-    </div>
+    <?php include_once("footer.php"); ?>
     <!-- Footer End -->
 
 
@@ -217,7 +193,7 @@
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="lib/counterup/counterup.min.js"></script>
 
-    <!-- Template Javascript -->
+    <!-- General Javascript -->
     <script src="js/main.js"></script>
 </body>
 
