@@ -175,6 +175,38 @@
     </div>
     <!-- List End -->
 
+    <!-- Social2 Start -->
+    <div id="social2" class="container-fluid py-5" colspan="5">
+        <div class="row">
+            <div class="col-lg-12 col-md-8 pt-3">
+                <h3 class="display-4 mb-3 animated slideInDown">Cripto Exchange para todos!</h1>
+                <h1 class="display-4 mb-3 animated slideInDown">Una comunidad de alcance mundial</h1>
+                <p class="animated slideInDown pb-2">Kii Exchange opera a nivel global, ahora mismo estamos creando nuestra<br> comunidad cripto a nivel mundial, si quieres rodearte de personas con tu misma<br> pasión por las criptomonedas, solo debes crear una cuenta y unirte a todas<br> nuestras redes sociales</p>
+            </div>
+            <div class="center col-lg-12 col-md-8 pt-3">
+                <div class="column">
+                    <a href="www.facebook.com"><img src="img/face.png" alt="facebook" style="max-width:100px"></a>
+                </div>
+                <div class="column">
+                    <a href="www.twitter.com"><img src="img/twitter.png" alt="twitter" style="max-width:100px"></a>
+                </div>
+                <div class="column">
+                    <a href="www.instagram.com"><img src="img/insta.png" alt="insta" style="max-width:100px"></a>
+                </div>
+                <div class="column">
+                    <a href="www.linkedin.com"><img src="img/in.png" alt="linke" style="max-width:100px"></a>
+                </div>
+                <div class="column">
+                    <a href=""><img src="img/telegram.png" alt="telegram" style="max-width:100px"></a>
+                </div>
+            </div>
+            <div class="center col-lg-12 col-md-8 pb-5 pt-3">
+                <button type="button" class="btn btn-primary py-2 px-3 top-0 end-0 mt-2 me-2">Registrese ahora!</button>
+            </div>
+        </div>
+    </div>>
+    <!-- Social2 End -->
+
     <!-- Footer Start -->
     <?php include_once("footer.php"); ?>
     <!-- Footer End -->
