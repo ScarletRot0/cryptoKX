@@ -31,6 +31,7 @@
     <!-- General Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
     <link href="css/estilos.css" rel="stylesheet">
+    <link href="css/tabla.css" rel="stylesheet">
 </head>
 
 <body>
@@ -153,6 +154,84 @@
     </div>
     <!-- Service End -->
 
+    <!-- Table Start-->
+    <div class="container-service py-5">
+        <div class="container py-5">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 1000px;">
+                <h1 class="display-6">El exchange más fácil de usar!</h1>
+                <p class="animated slideInDown">No pierda la próxima oportunidad para ganar comprando y<br>vendiendo criptomonedas en nuestro exchange</p>
+            </div>
+        </div>
+    </div>
+    <div class="page-content page-container" id="page-content">
+        <div class="padding" >
+            <div class="row container d-flex justify-content-center">
+                <div class="col-lg-12 grid-margin stretch-card">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table id="htmltable" class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Capitalización del mercado</th>
+                                            <th>Capitalización bursatil base totalmente diluida</th>
+                                            <th>Precio</th>
+                                            <th>Monedas disponibles</th>
+                                            <th>Volumen negociado</th>
+                                            <th>Cambio %</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>322.136B</td>
+                                            <td>322.136B</td>
+                                            <td>16816.00</td>
+                                            <td>19.204M</td>
+                                            <td>21M</td>
+                                            <td><b class="red">-4.19%</b></td>
+                                        </tr>
+                                        <tr>
+                                            <td>155.767B</td>
+                                            <td>155.767B</td>
+                                            <td>1272.88</td>
+                                            <td>122.374M</td>
+                                            <td>21.695M</td>
+                                            <td><b class="red">-1.81%</b></td>
+                                        </tr>
+                                        <tr>
+                                            <td>68.111B</td>
+                                            <td>72.969B</td>
+                                            <td>0.99764000</td>
+                                            <td>68.272B</td>
+                                            <td>73.142B</td>
+                                            <td><b class="red">-1.81%</b></td>
+                                        </tr>
+                                        <tr>
+                                            <td>46.025B</td>
+                                            <td>57.54B</td>
+                                            <td>287.7</td>
+                                            <td>159.975M</td>
+                                            <td>200M</td>
+                                            <td><b class="green">+0.13%</b></td>
+                                        </tr>
+                                        <tr>
+                                            <td>43.858B</td>
+                                            <td>43.858B</td>
+                                            <td>1.0000</td>
+                                            <td>43.858B</td>
+                                            <td>43.858B</td>
+                                            <td><b class="green">+3.13%</b></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Table End-->
     <!-- List Start -->
     <div id=fondo3 class="container-fluid">
         <div class="row">
@@ -206,7 +285,7 @@
         </div>
     </div>>
     <!-- Social2 End -->
-
+    
     <!-- Footer Start -->
     <?php include_once("footer.php"); ?>
     <!-- Footer End -->
@@ -224,7 +303,7 @@
     <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="lib/counterup/counterup.min.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/gh/bbbootstrap/libraries@main/jquery.table2excel.min.js"></script>
     <!-- General Javascript -->
     <script src="js/main.js"></script>
 </body>
