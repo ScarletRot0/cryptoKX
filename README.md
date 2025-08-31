@@ -57,7 +57,7 @@ project/
 
 ### 1) Clone the repository
 ```bash
-git clone [https://github.com/ScarletRot0/kii-x-exchange.git](https://github.com/ScarletRot0/cryptoKX.git)
+git clone [https://github.com/ScarletRot0/cryptoKX.git]
 cd cryptoKX
 ```
 ### 2) Serve locally
